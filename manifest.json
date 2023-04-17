@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Stackoverflow Cookies",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://stackoverflow.com/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
