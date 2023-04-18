@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "content_scripts": [
         {
-            "matches": ["https://stackoverflow.com/*", "https://askubuntu.com/*"],
+            "matches": ["https://stackoverflow.com/*", "https://askubuntu.com/*", "https://*.stackexchange.com/*"],
             "js": ["script.js"]
         }
     ]
